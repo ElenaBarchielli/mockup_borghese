@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GB</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button">Galleria Borghese</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+       <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#images" class="w3-bar-item w3-button">The Collection</a>
+      <a href="#rooms" class="w3-bar-item w3-button">Rooms</a>
+      <a href="#contributions" class="w3-bar-item w3-button">Contributions</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="/Users/elenabarchielli/Desktop/gb/img/Tiziano_Amor.tif" alt="Lust" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+
+  </div>
+</header>
+
+<!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">The Project</h3>
+    <p> IIIF stands for International Image Interoperability Framework. This model comes from a large community of cultural heritage organisations that are working together to reach a practical consensus on the publication of digital images. By adopting the framework, the public and scholars can bring together images from any participating organisation for comparison, manipulation and annotation in a single user interface. This community has agreed on, published and implemented two main specifications.</p>
+
+<p>IIIF Image API: to retrieve digital objects, a Unique Resource Identifier (URI) is created by stringing together the Server, Prefix, Identifier, Region, Size, Rotation and Quality, it gives access to image pixels, enabling the smooth and deep zooming that can be experienced in the Mirador client, along with technical information about the image such as its size and available formats.</p>
+
+<p>IIIF Presentation API: it allows developers to wrap the IIIF Image API in a more interactive experience. It gives the rest of the information: the title of the object and all its metadata, rights information and, if there is more than one image, the order in which to display them. Project Mirador and Universal Viewer represent two examples of how the two APIs can be used together.</p>
+
+<p>All of the information available on the Museum’s collections pages is also included in the description of the object, plus access to all of the “alternate” images for the object, including different views, x-rays or the various digitised folios for manuscripts: this is all present in the manifest, a json file which is the prime unit in IIIF, listing all the information that makes up a IIIF object.</p>
+
+<p>The viewer used is called Mirador. We chose Mirador because it allows comparison of multiple objects—a key scholarly use case—and will support annotation of the images when we add the infrastructure to manage the annotations created.
+      </p>
+  </div>    
+
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+    
+
+  <!-- Images Section -->
+  <div class="w3-container w3-padding-32" id="images">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">The Collection</h3>
+  </div>
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Canova, Paolina Borghese</div>
+         <a href="./gal1.html">
+          <img  src="/Users/elenabarchielli/Desktop/gb/img/Canova_Paolina.tif"
+         alt="Image" style="width:100%">
+         </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Bernini, David</div>
+          <a href="/Users/elenabarchielli/Desktop/gb/gal2.html">
+          <img  src="/Users/elenabarchielli/Desktop/gb/img/Bernini_David.tif"
+         alt="Image" style="width:100%">
+         </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Caravaggio, Madonna dei Palafrenieri</div>
+           <a href="./gal3.html">
+          <img  src="/Users/elenabarchielli/Desktop/gb/img/INV_110_CARAVAGGIO_PALAFRENIERI.jpg"
+         alt="Image" style="width:100%">
+         </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Caravaggio, Giovane con canestra di frutta</div>
+          <a href="/Users/elenabarchielli/Desktop/gb/gal4.html">
+          <img  src="/Users/elenabarchielli/Desktop/gb/img/INV_136_CARAVAGGIO_GIOVANE_FRUTTA.jpg"
+         alt="Image" style="width:100%">
+         </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Valadier, Erma di Bacco</div>
+          <a href="/Users/elenabarchielli/Desktop/gb/gal5.html">
+          <img  src="/Users/elenabarchielli/Desktop/gb/img/Valadier_Erma.tif"
+         alt="Image" style="width:100%">
+         </a>
+      </div>
+    </div>
+    
+
+  <!-- Rooms -->
+  <div class="w3-container w3-padding-32" id="rooms">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Rooms</h3>
+  </div>
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Sala 1</div>
+         <a href="/Users/elenabarchielli/Desktop/gb/room1.html">
+          <img  src="/Users/elenabarchielli/Desktop/gb/img/GB_s1_panorama.tif"
+         alt="Image" style="width:100%">
+         </a>
+      </div>
+    </div>
+  </div>
+
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
